@@ -1,2 +1,2 @@
 # Dynamic-Array
-This show how dynamic array work
+A dynamic array maintains an internal array and a capacity that represents the maximum number of elements it can store without resizing. When the number of elements exceeds the current capacity, the dynamic array allocates a larger memory block, copies existing elements to the new block, and releases the old memory. Typically, the capacity is increased by a fixed factor, commonly doubling, to ensure efficient amortized performance.
